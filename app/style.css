@@ -1,0 +1,28 @@
+html, body { margin: 0; min-height: 100%; background: #160a24; color: #f5eefc; font: 15px/1.45 system-ui, sans-serif; }
+.app { display: flex; gap: 28px; align-items: flex-start; justify-content: center; padding: 24px; box-sizing: border-box; }
+.controls { display: flex; flex-direction: column; gap: 12px; width: 320px; flex: none; }
+.controls h1 { margin: 0; font-size: 26px; letter-spacing: 0.02em; color: #ffb347; }
+.tagline { margin: 0; color: #d8c8ec; }
+.steps { margin: 0; padding-left: 20px; color: #d8c8ec; }
+.steps li { margin: 2px 0; }
+.panels { display: flex; flex-direction: column; gap: 10px; }
+.panel { border: 1px solid #5b3a7a; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.panel legend { font-weight: 700; color: #ffb347; padding: 0 4px; }
+label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; }
+label.check { flex-direction: row; align-items: center; font-weight: 400; }
+input[type=text], select { font: inherit; padding: 8px; border: 1px solid #7a5a9e; border-radius: 6px; background: #241338; color: #f5eefc; }
+input[type=file] { font: inherit; color: #d8c8ec; }
+input[type=range] { width: 100%; accent-color: #ff7a3d; }
+button { font: inherit; font-weight: 700; padding: 11px; border: 0; border-radius: 6px; background: #ff7a3d; color: #1d0b2e; cursor: pointer; }
+button.secondary { background: #3a2358; color: #ffd9a0; }
+#status { margin: 0; min-height: 1.2em; color: #7df0d4; }
+.note { margin: 0; font-size: 13px; color: #a98fc4; }
+.preview { display: flex; flex-direction: column; align-items: center; gap: 10px; position: sticky; top: 24px; }
+#poster { width: min(62vh, 58vw); height: auto; max-height: 82vh; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55); background: #fff; }
+#previewNote { margin: 0; color: #d8c8ec; font-size: 13px; }
+body.shot-cover { background: #000; }
+body.shot-cover .controls { display: none; }
+body.shot-cover .app { padding: 0; display: block; }
+body.shot-cover .preview { position: static; }
+body.shot-cover #poster { width: 100vw; height: 100vh; object-fit: contain; max-height: none; box-shadow: none; }
+body.shot-cover #previewNote { display: none; }
