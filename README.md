@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/gta6-cover-art-01/masaji129980-crypto/gta6-cover-art-01-entry/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 [![reward](https://make.fun/badge/gta6-cover-art-01/masaji129980-crypto/gta6-cover-art-01-entry/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 
-Vice Nights Cover Maker — a static web app that turns your photos and a caption into GTA-style multi-panel poster cover art (Vice City sunset/neon colour grades, 3 layouts, exportable PNG in 1080x1080, 1080x1350 and 1920x1080). Upload up to 3 photos, crop and position each panel, pick a layout and grade, and export the cover. Original design and artwork only — no Rockstar assets. Built with plain HTML/CSS/JS (`app/`); `main.ts` hands the app and its screenshots in.
+Vice Nights Cover Maker turns your own photos into a GTA-style multi-panel poster. Pick up to three photos, arrange each one inside its panel, choose from three layouts and a sunset or neon colour grade, add your caption in bold poster lettering, then export the finished cover as a PNG at 1080x1080, 1080x1350 or 1920x1080 — ready to post. Everything is drawn in your browser from your own pictures; the design is original, with no Rockstar artwork, logos or fonts. Plain HTML/CSS/JS under `app/`; `main.ts` hands the app and its screenshots in.
 
 ## Run it
 
